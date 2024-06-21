@@ -1,0 +1,12 @@
+Django
+djangorestframework
+requests
+drf-yasg
+djangorestframework-simplejwt
+django-environ
+django-cors-headers
+pytest
+pytest-mock
+pytest-cov
+db-sqlite3
+pytest-django

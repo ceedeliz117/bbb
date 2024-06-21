@@ -1,0 +1,12 @@
+logs
+*.log
+context.json
+deploy.env
+event_sources.json
+.serverless/
+terraform/builds/
+terraform/.terraform
+*.zip
+terraform/.terraform.lock.hcl
+env
+__pycache__
