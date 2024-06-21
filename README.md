@@ -51,6 +51,15 @@ Para instalar y configurar el proyecto, asegúrate de tener `make` y Docker inst
 
 - **Realizar una orden**
     - **POST** `http://localhost:8000/api/orders`
+    - Payload:
+        ```json
+        {
+            "product": "<product-id>", 
+            "quantity": 10
+        }
+        ```
+
+    
     - Nota: Al realizar una orden, se restará la cantidad correspondiente del stock.
 
 ### Documentación
